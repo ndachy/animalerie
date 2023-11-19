@@ -1,0 +1,233 @@
+
+
+
+
+body {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 180px;
+    background-color: rgb(255, 255, 255);
+}
+
+.container > div {
+    border-radius: 15px;
+    border-color: rgb(255, 255, 255);
+    padding: 10px 0;
+    background-color: rgb(255, 255, 255);
+}
+
+.separation {
+    display: grid;
+    grid-template-columns: 550px 550px;
+    grid-gap: 20px; 
+    padding: 5px 0;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Youngley', sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 260px 260px;
+    grid-auto-rows: 285px;
+    grid-gap: 12px;
+}
+
+.sous-container {
+    display: grid;
+    grid-auto-rows: 20px;
+    grid-gap: 15px;
+    text-align: center;
+}
+
+.photo {
+    grid-column: 1 / 16;
+    grid-row: 1;
+}
+
+.photo img {
+    border-radius: 105px;
+}
+
+.Etat {
+    border-radius: 5px;
+    background-color: rgb(123, 128, 113);
+    color: #fafdfd; 
+    grid-column: 8 / 14;
+    grid-row: 7;
+    font-family: 'Youngley', sans-serif;
+}
+
+.Nom {
+    grid-column: 3 / 8;
+    grid-row: 7;
+    font-family: 'Youngley', sans-serif;
+}
+
+.Disponibilité_libre {
+    border-radius: 5px;
+    background-color: rgb(31, 143, 31);
+    color: #fafdfd; 
+    grid-column: 8 / 14;
+    grid-row: 7;
+    font-family: 'Youngley', sans-serif;
+}
+
+.Disponibilité_occupe {
+    border-radius: 5px;
+    background-color: rgb(211, 11, 11);
+    color: #fafdfd; 
+    grid-column: 8 / 14;
+    grid-row: 7;
+    font-family: 'Youngley', sans-serif;
+}
+
+footer {
+    border-radius: 5px;
+    grid-column: 5 / 13;
+    grid-row: 8;
+    font-family: 'Youngley', sans-serif;
+}
+
+a {
+    color: #000000; 
+}
+
+h1 {
+    background-color: rgb(38, 91, 47);
+    color: rgb(245, 228, 162);
+    border-radius: 25px;
+    padding: 50px 20px 20px 50px;
+    width: 1035px;
+    font-family: 'Youngley', sans-serif;
+    text-align: center;
+}
+
+.message {
+    border-radius: 5px;
+    background-image: linear-gradient(to bottom,#f2dede 0,#e7c3c3 100%);
+    background-repeat: repeat-x;
+    border-color: #dca7a7;
+    height: 40px;
+    padding: 10px 5px;
+    margin: 25px 0;
+}
+
+.texte-message {
+    line-height: 37px;
+    font-weight: bold;
+    margin: 0 7px;
+}
+
+.back {
+    border-radius: 5px;
+    border-color: rgb(255, 255, 255);
+    padding: 10px 5px;
+    margin: 20px 0;
+    background-color: rgb(23, 23, 107);
+    width: 50;
+    text-align: center;
+}
+
+.animal {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    padding: 20px 0;
+    margin: 0px 100px;
+    background-color: rgb(255, 255, 255);
+    width: 905px
+}
+
+.titre_animal {
+    grid-column: 2;
+    grid-row: 1;
+    text-align: center;    
+}
+
+.description {
+    display: grid;
+    grid-column: 3;
+    grid-row: 1;
+    border-radius: 5px;
+    margin: 1px;
+}
+
+.photo_detail {
+    grid-column: 1;
+    grid-row: 1;
+    margin-left: 10px;
+    margin-top: 90px;
+}
+
+.photo_detail img {
+    border-radius: 45px;
+}
+
+.details_animal {
+    grid-column: 2;
+    grid-row: 1;
+    border-radius: 5px;
+    margin-right: 200px;
+    margin-top: 150px;
+    font-family: 'Youngley', sans-serif;
+    font-size: 20px;
+    color: #000000;
+    background-color: #ffffff;
+    padding: 10px;
+    width: 250px;
+}
+
+.centrer {
+    margin: 25px 450;
+    font-family: 'Youngley', sans-serif;
+}
+
+.Disponibilité_libre_bis {
+    border-radius: 5px;
+    background-color: rgb(13, 199, 13);
+    color: #fafdfd; 
+    grid-column: 2;
+    grid-row: 6;
+    margin: 5px 85px;
+    padding: 3px;
+    width: 70;
+    font-family: 'Youngley', sans-serif;
+    text-align: center;
+}
+
+.Disponibilité_occupe_bis {
+    border-radius: 5px;
+    background-color: rgb(211, 11, 11);
+    color: #fafdfd; 
+    grid-column: 2;
+    grid-row: 6;
+    margin: 5px 75px;
+    padding: 3px;
+    width: 70;
+    font-family: 'Youngley', sans-serif;
+    text-align: center;
+}
+
+.back_bis {
+    border-radius: 5px;
+    border-color: rgb(255, 255, 255);
+    padding: 10px 5px;
+    margin: 20px 100px;
+    background-color: rgb(23, 23, 107);
+    width: 50;
+    text-align: center;
+}
+
+.occupant {
+    border-radius: 5px;
+    background-color: #706d6d;
+    color: #fafdfd; 
+    grid-column: 2;
+    grid-row: 7;
+    margin: 5px 75px;
+    padding: 3px;
+    width: 150;
+    text-align: center;
+}
